@@ -1,41 +1,36 @@
 {
   "expo": {
     "name": "Talkies",
-    "slug": "Talkies",
+    "slug": "chatapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "Talkies",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-
     "ios": {
       "supportsTablet": true
     },
-
     "android": {
       "package": "com.adwaith701.myApp",
-      "permissions": ["INTERNET"],
-
+      "permissions": [
+        "INTERNET"
+      ],
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
-
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false
     },
-
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
-
     "plugins": [
       "expo-router",
-
       [
         "expo-splash-screen",
         {
@@ -48,7 +43,6 @@
           }
         }
       ],
-
       [
         "expo-build-properties",
         {
@@ -58,17 +52,16 @@
         }
       ]
     ],
-
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
     },
-
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "98324789-d159-49b6-95f3-a3d056464d5c"
+        "projectId": "04622e9f-861b-47de-a1a5-5110bb776fff"
       }
-    }
+    },
+    "owner": "adwaith701"
   }
 }
